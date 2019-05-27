@@ -1,3 +1,6 @@
+
+
+
 var array1 = [1, 2, 3];
 var num = 1;
 var text = "string";
@@ -5,11 +8,12 @@ var doSomething = function(element){
     console.log(element);
 };
 
-array1.forEach(function(element, i) {
+array1.forEach(function(element) {
   console.log(element);
-//  console.log(i);
-//   console.log(arr);
 });
+
+
+
 
 function forEach(func, thing) {
     if (Object.prototype.toString.call(func) !== "[object Function]" || Object.prototype.toString.call(thing) !== "[object Array]") {
