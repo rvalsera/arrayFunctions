@@ -1,5 +1,7 @@
-
-
+/*  ....................
+    array.forEach method
+    ····················
+*/
 
 var array1 = [1, 2, 3];
 var num = 1;
@@ -12,7 +14,10 @@ array1.forEach(function(element) {
   console.log(element);
 });
 
-
+/*  ................
+    forEach function
+    ················
+*/
 
 
 function forEach(func, thing) {
@@ -22,7 +27,7 @@ function forEach(func, thing) {
         console.log("\nParameter 2: " + Object.prototype.toString.call(thing));
         } else {
             for (let i = 0; i < thing.length; i++) {
-                func(b[i]);
+                func(thing[i]);
             };
     }
 };
