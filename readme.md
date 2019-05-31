@@ -6,10 +6,10 @@ Mentee: Raúl Valsera
 
 ## Schedule
 
--   Week 01 (20/05/2019) - Array Exercises
--   Week 02 (27/05/2019) - Event Emitter Exerscise
+-   Week 01 (20/05/2019) - Array.Methods
+-   Week 02 (27/05/2019) - Event Emitter
 
-## Array Exercises
+## Array.Methods
 
 Determine what the following Array methods do, and create functions that will do the same thing.
 
