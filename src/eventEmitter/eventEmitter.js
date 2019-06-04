@@ -9,23 +9,33 @@ const emitter = {
         }
     },
 
-    eventEmitt: function(event) {
+    eventEmitt: function(event, message) {
         if (!this.eventList[event]) {
             console.log(
-                "\nThere are no callbacks listed for the subscription of the event " + event + "\n"
+                "\nThere are no callbacks listed for the subscription of the event '" +
+                    event +
+                    "'\n"
             );
         } else {
             console.log(
-                "\nBelow are the callbacks listed for the subscription of the event " + event + "\n"
+                "\nBelow are the callbacks listed for the subscription of the event '" +
+                    event +
+                    "'\n"
             );
             for (let i = 0; i < this.eventList[event].action.length; i++) {
                 console.log(i + 1 + ":\n" + this.eventList[event].action[i]);
+                this.eventList[event].action[i](message);
             }
         }
     },
 
-    eventOff: function(event) {
-        delete this.eventList[event];
+    eventOff: function(event, func) {
+        // function whatevs(element) {
+        //     return element === func;
+        // }
+
+        let index = this.eventList[event].action.indexOf(func);
+        this.eventList[event].action.splice(index, 1);
     },
 };
 

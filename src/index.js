@@ -14,8 +14,11 @@ emitter.eventOn("raul", func);
 console.log(emitter.eventList);
 
 emitter.eventEmitt("whatever");
-emitter.eventEmitt("raul");
-emitter.eventEmitt(name);
+emitter.eventEmitt("raul", "whassup");
+emitter.eventEmitt(name, "this is a message");
 
-emitter.eventOff("tercero");
+console.log(emitter.eventList);
+
+emitter.eventOff("raul", func);
+
 console.log(emitter.eventList);
