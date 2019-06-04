@@ -8,7 +8,7 @@ Mentee: Raúl Valsera
 
 -   Week 01 (20/05/2019) - Array Methods
 -   Week 02 (27/05/2019) - Event Emitter
--   Week 03 (04/06/2019) - Array Methods II
+-   Week 03 (04/06/2019) - Array Methods II / Go over Functions and Classes documentation
 
 ## Array Methods
 
@@ -22,7 +22,7 @@ Determine what the following array methods do, and create functions that will do
 
 Determine how an event emitter works, and create an object that contains all the necessary parts to do the same thing.
 
-## Array Methods II
+## Array Methods II / Go over Functions and Classes documentation
 
 Determine what the following array methods do, and create functions that will do the same thing.
 
