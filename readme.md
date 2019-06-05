@@ -22,7 +22,7 @@ Determine what the following array methods do, and create functions that will do
 
 Determine how an event emitter works, and create an object that contains all the necessary parts to do the same thing.
 
-## w03: Array Methods II / Go over Functions and Classes documentation
+## W03: Array Methods II / Go over Functions and Classes documentation
 
 Determine what the following array methods do, and create functions that will do the same thing.
 
