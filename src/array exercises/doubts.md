@@ -21,10 +21,18 @@ ___
    What is boxing / autoboxing?  
    What does all this mean?
 
-[**Instancec properties**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Instance_properties)
+[**Instance properties**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Instance_properties)
 
    Difference between instance properties and static class-side properties?
 
 [**Field declarations**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Field_declarations)
 
-   What are private fields and what are they for?  
+   What are _private fields_ and what are they for?  
+   Are they specific to classes? or can _private fields_ be used in other situations?
+
+[**Species**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Species)
+
+   What are _species_ and what is it for?
+   When would I want to use _species_
+   what does ```javascript 
+   static get [Symbol.species]() { return Array; }``` do?
