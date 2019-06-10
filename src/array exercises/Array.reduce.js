@@ -1,24 +1,3 @@
-/*  ...................
-    array.reduce method
-    ···················
-*/
-
-const array1 = [1, 2, 3, 4];
-const reducer = (accum, currentValue) => accum + currentValue;
-
-// 1 + 2 + 3 + 4
-console.log(array1.reduce(reducer));
-// expected output: 10
-
-// 5 + 1 + 2 + 3 + 4
-console.log(array1.reduce(reducer, 5));
-// expected output: 15
-
-/*  ...............
-    reduce function
-    ···············
-*/
-
 var listOfNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 // functions that can be used as input in the reduce function
