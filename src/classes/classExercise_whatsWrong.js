@@ -13,7 +13,7 @@ class Square extends Polygon {
     }
 }
 
-new Square(4, 5);
+new Square(4);
 console.log(Square.name);
 console.log(Square.height);
 console.log(Square.width);
