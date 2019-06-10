@@ -30,10 +30,6 @@ const emitter = {
     },
 
     eventOff: function(event, func) {
-        // function whatevs(element) {
-        //     return element === func;
-        // }
-
         let index = this.eventList[event].action.indexOf(func);
         this.eventList[event].action.splice(index, 1);
     },

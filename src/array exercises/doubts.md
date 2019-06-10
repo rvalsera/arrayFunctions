@@ -4,9 +4,15 @@
 
 _arr.find(callback[, thisArg])_
 
-If a thisArg parameter is provided to find, it will be used as the this value for each invocation of the callback. If it is not provided, then undefined is used.
+If a _thisArg_ parameter is provided to find, it will be used as the this value for each invocation of the callback. If it is not provided, then undefined is used.
 
 ## Class
 _Static Methods_
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Static_methods
 
-The static keyword defines a static method for a class. Static methods are called without instantiating their class and cannot be called through a class instance. Static methods are often used to create utility functions for an application.
+* The static keyword defines a static method for a class. Static methods are called without instantiating their class and cannot be called through a class instance. Static methods are often used to create utility functions for an application.
+
+_Boxing with prototype and static methods_
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Boxing_with_prototype_and_static_methods
+
+* What is boxing?
