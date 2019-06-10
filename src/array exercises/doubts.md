@@ -34,6 +34,4 @@ ___
 
    What are _species_ and what is it for?  
    When would I want to use _species_?  
-   what does ```javascript 
-   static get [Symbol.species]() { return Array; }
-   ``` do?
+   what does ```static get [Symbol.species]() { return Array; }``` do?
