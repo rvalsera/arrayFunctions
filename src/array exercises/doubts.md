@@ -13,7 +13,7 @@ If a _thisArg_ parameter is provided to find, it will be used as the this value 
 
 [**Boxing with prototype and static methods**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Boxing_with_prototype_and_static_methods)
 
-   What is boxing / autoboxing?
+   What is boxing / autoboxing?  
    What does all this mean?
 
 [**Instancec properties**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Instance_properties)
