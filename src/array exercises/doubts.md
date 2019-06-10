@@ -1,13 +1,16 @@
 # Doubts
+
+### array.find
 ___
 
-## array.find
-
+```javascript
 _arr.find(callback[, thisArg])_
+```
 
 If a _thisArg_ parameter is provided to find, it will be used as the this value for each invocation of the callback. If it is not provided, then undefined is used.
 
-## Class
+### Class
+___
 
 [**Static methods**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Static_methods)
 
@@ -22,3 +25,6 @@ If a _thisArg_ parameter is provided to find, it will be used as the this value 
 
    Difference between instance properties and static class-side properties?
 
+[**Field declarations**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Field_declarations)
+
+   What are private fields and what are they for?  
