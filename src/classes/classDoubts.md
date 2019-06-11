@@ -28,8 +28,10 @@ What are _species_ and what is it for?
  When would I want to use _species_?  
  what does
 
-````javascript
-static get [Symbol.species]() { return Array; }```
+```javascript
+static get [Symbol.species]() { return Array; }
+```
+
 do?
 
 [**Mix-ins**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Mix-ins)
@@ -39,4 +41,7 @@ What the actual fuck?
 [**class declaration**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class)
 
 what is prototype-based inheritance?
-````
+
+```
+
+```
